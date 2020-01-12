@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    metallb.universe.tf/address-pool: network-services
+    metallb.universe.tf/allow-shared-ip: pihole-svc
+  labels:
+    app: pihole
+  name: pihole-tcp
+  namespace: default
+spec:
+  externalTrafficPolicy: Local
+  ports:
+  - name: pihole-http
+    port: 80
+    protocol: TCP
+    targetPort: pihole-http
+  selector:
+    app: pihole
+  sessionAffinity: None
+  type: LoadBalancer
