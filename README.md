@@ -17,9 +17,9 @@ The ability to easily manage and configure Pi-hole features
 
 
 
-## Pre Reqs
+## Pre Reqs (before you apply the manifests)
 
-In the <span style="color: red"> metallb-configmap.yaml </span> file you need to set the IP ranges to match your network.
+In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
 ```
   config: |
@@ -40,11 +40,8 @@ In the <span style="color: red"> metallb-configmap.yaml </span> file you need to
 ## Quick Start (K3s)
 
 ```
-$ git clone https://github.com/colin-mccarthy/k3s-pi-hole
 
 $ cd k3s-pi-hole
-
-CHANGE metallb-configmap.yaml IP RANGES TO FIT YOUR NETWORK
 
 $ kubectl apply -f manifests/
 
