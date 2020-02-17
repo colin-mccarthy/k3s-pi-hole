@@ -2,7 +2,7 @@
 
 This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
 
-<img src="./docs/RPI4b.jpg" width="200"> 
+<img src="./docs/RPI4b.png" width="200"> 
 
 
 
