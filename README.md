@@ -75,6 +75,10 @@ $ cd k3s-pi-hole
 $ kubectl apply -f manifests/
 
 ```
+If you get an error while applying the manifests, run kubectl apply -f manifests/ again. Sometimes the resources required are not deployed yet.
+
+
+## Success 🎉
 
 Now you should be able to access the Pi-hole web Gui at http://(node-IP):80 and http://(node-IP)/admin
 
