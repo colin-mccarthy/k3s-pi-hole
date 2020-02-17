@@ -2,8 +2,7 @@
 
 This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
 
-![](./docs/RPi4b.jpg)
-
+<img src="./docs/RPI4b.jpg" width="200"> 
 
 
 
@@ -23,7 +22,6 @@ Some notable features include:
 
 
 ## Pre Reqs (before you apply the manifests)
-
 In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
 ```
