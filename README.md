@@ -10,7 +10,7 @@ This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K
 Pi-hole is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
 
-<img src="./docs/screenshot.jpg" width="450">•
+<img src="./docs/screenshot.jpg" width="450">
 
 
 Some notable features include:
@@ -63,7 +63,8 @@ metrics-server   ClusterIP   10.43.177.238   <none>        443/TCP              
 
 
 
-## Quick Start (K3s) 🚀
+## Quick  Start(Time to deploy Pi-hole on K3s) 🚀
+
 
 ```
 
@@ -73,4 +74,6 @@ $ kubectl apply -f manifests/
 
 ```
 
+Now you should be able to access the Pi-hole web Gui at http://<node-IP>:80 and http://<node-IP>/admin
 
+<img src="./docs/pi-hole-gui.png" width="450">
