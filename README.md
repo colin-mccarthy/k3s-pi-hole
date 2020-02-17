@@ -1,4 +1,4 @@
-# Easy Deploy of Pi-hole to K3s on RPi 4B 🥧 🕳
+# 🚨 Easy Deploy of Pi-hole to K3s on RPi 4B 🚨
 
 This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
 
