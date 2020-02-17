@@ -7,7 +7,11 @@ This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K
 
 
 
-Pi-hole is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
+Pi-hole is a Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole (and optionally a DHCP server), 
+intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, 
+but it can be used on other machines running Linux and cloud implementations.
+Pi-hole has the ability to block traditional website advertisements as well as advertisements in unconventional places, 
+such as smart TVs and mobile operating system advertisements.
 
 
 <img src="./docs/screenshot.jpg" width="450">
@@ -16,8 +20,8 @@ Pi-hole is a DNS sinkhole that protects your devices from unwanted content, with
 Some notable features include:
 
 * Password protection
-* Detailed graphs and doughnut charts
-* Top lists of domains and clients
+* Detailed graphs 
+* Top lists of blocked domains and clients
 * A filterable and sortable query log
 * Long Term Statistics to view data over user-defined time ranges
 * The ability to easily manage and configure Pi-hole features
