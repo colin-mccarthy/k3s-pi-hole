@@ -24,7 +24,7 @@ Some notable features include:
 
 
 
-## Pre Reqs (before you apply the manifests)
+## Pre Reqs (before you apply the manifests) ⚠
 In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
 ```
@@ -46,7 +46,6 @@ We will be removing Traefik so our pihole-tcp service can use port 80 on the nod
 
 ```
 $ kubectl get svc -n kube-system
-
 NAME             TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)                                     AGE
 kube-dns         ClusterIP      10.43.0.10      <none>            53/UDP,53/TCP,9153/TCP                      14m
 metrics-server   ClusterIP      10.43.177.238   <none>            443/TCP                                     14m
@@ -56,7 +55,7 @@ traefik          LoadBalancer   10.43.52.84     192.168.161.104   80:32185/TCP,4
 $ kubectl delete -n kube-system helmcharts traefik
 helmchart.helm.cattle.io "traefik" deleted
 
-kubectl get svc -n kube-system
+$ kubectl get svc -n kube-system
 NAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)                  AGE
 kube-dns         ClusterIP   10.43.0.10      <none>        53/UDP,53/TCP,9153/TCP   21m
 metrics-server   ClusterIP   10.43.177.238   <none>        443/TCP                  21m
