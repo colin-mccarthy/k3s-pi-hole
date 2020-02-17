@@ -2,13 +2,16 @@
 
 This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
 
-<img src="./docs/RPI4b.png" width="200"> 
+
+<img src="./docs/RPI4b.png" width="300"> 
 
 
 
 Pi-hole is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
-![](./docs/screenshot.jpg)
+
+<img src="./docs/screenshot.jpg" width="300">•
+
 
 Some notable features include:
 
