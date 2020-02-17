@@ -25,7 +25,8 @@ Some notable features include:
 
 
 ## Pre Reqs (before you apply the manifests) ⚠
-In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
+
+✅  In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
 ```
   config: |
@@ -38,9 +39,10 @@ In the metallb-configmap.yaml file you need to set the IP ranges to match your n
       - 192.168.161.215-192.168.161.224
       name: network-services
       protocol: layer2
-
 ```
-k3s uses the stable/traefik helm chart to deploy the ingress controller with service type LoadBalancer, and the ports there are hardcoded to 443 and 80.
+
+
+✅  k3s uses the stable/traefik helm chart to deploy the ingress controller with service type LoadBalancer, and the ports there are hardcoded to 443 and 80.
 
 We will be removing Traefik so our pihole-tcp service can use port 80 on the node instead.
 
@@ -74,6 +76,17 @@ $ kubectl apply -f manifests/
 
 ```
 
-Now you should be able to access the Pi-hole web Gui at http://<node-IP>:80 and http://<node-IP>/admin
+Now you should be able to access the Pi-hole web Gui at http://(node-IP):80 and http://(node-IP)/admin
 
 <img src="./docs/pi-hole-gui.png" width="450">
+
+
+The login password is: admin
+
+
+
+
+
+
+
+
