@@ -1,4 +1,11 @@
-# Easy Deploy of Pi-hole to K3s cluster 🥧 🕳
+# Easy Deploy of Pi-hole to K3s on RPi 4B 🥧 🕳
+
+This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
+
+![](./docs/RPi4b.jpg)
+
+
+
 
 Pi-hole is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
 
