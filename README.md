@@ -52,7 +52,7 @@ kube-dns         ClusterIP      10.43.0.10      <none>            53/UDP,53/TCP,
 metrics-server   ClusterIP      10.43.177.238   <none>            443/TCP                                     14m
 traefik          LoadBalancer   10.43.52.84     192.168.161.104   80:32185/TCP,443:31801/TCP,8080:30008/TCP   12m
 
-```
+
 $ kubectl delete -n kube-system helmcharts traefik
 helmchart.helm.cattle.io "traefik" deleted
 
@@ -64,7 +64,7 @@ metrics-server   ClusterIP   10.43.177.238   <none>        443/TCP              
 
 
 
-## Quick Start (K3s)
+## Quick Start (K3s) 🚀
 
 ```
 
