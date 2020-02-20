@@ -30,7 +30,7 @@ Some notable features include:
 
 
 
-## Pre Reqs (before you apply the manifests) ⚠
+## Pre Reqs (before you apply the manifests) ⚠️
 
 ✅  In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
