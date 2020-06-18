@@ -31,6 +31,7 @@ Some notable features include:
 
 
 ## Pre Reqs (before you apply the manifests) ⚠️
+If using Metallb
 
 ✅  In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
@@ -86,7 +87,7 @@ If you get an error while applying the manifests, run kubectl apply -f manifests
 
 ## Success 🎉
 
-Now you should be able to access the Pi-hole web Gui at http://(node-IP):80 and http://(node-IP)/admin
+Now you should be able to access the Pi-hole web Gui at http://(node-IP):30007 and http://(node-IP)/admin
 
 <img src="./docs/pi-hole-gui.png" width="450">
 
