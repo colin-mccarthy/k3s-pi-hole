@@ -97,7 +97,7 @@ Now you should be able to access the Pi-hole web Gui at http://(node-IP):30007 a
 
 The login password is: admin
 
-###update*
+##update
 
 The Web interface password needs to be reset via the command line on your Pi-hole. This can be done locally or over SSH. You will use the pihole command to do this:
 
