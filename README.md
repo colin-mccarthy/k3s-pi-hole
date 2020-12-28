@@ -97,6 +97,29 @@ Now you should be able to access the Pi-hole web Gui at http://(node-IP):30007 a
 
 The login password is: admin
 
+###update*
+
+The Web interface password needs to be reset via the command line on your Pi-hole. This can be done locally or over SSH. You will use the pihole command to do this:
+
+pihole -a -p
+You will be prompted for the new password. If you enter an empty password, the password requirement will be removed from the web interface.
+
+
+##Get a Shell to a Running Container
+This page shows how to use kubectl exec to get a shell to a running container.
+
+https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
+
+```
+colinmccarthy@Colins-MBP work % k exec --stdin --tty pihole-687f4b5567-bk8s2 -- /bin/bash
+root@pihole-687f4b5567-bk8s2:/# pihole -a -p
+Enter New Password (Blank for no password): 
+Confirm Password: 
+  [✓] New password set
+root@pihole-687f4b5567-bk8s2:/# 
+root@pihole-687f4b5567-bk8s2:/# 
+```
+
 
 
 
