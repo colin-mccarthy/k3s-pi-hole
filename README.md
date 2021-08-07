@@ -111,9 +111,10 @@ This page shows how to use kubectl exec to get a shell to a running container.
 
 https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
 
-```
-kubectl exec --stdin --tty <your pihole pod> -- /bin/bash
 
+`kubectl exec --stdin --tty <your pihole pod> -- /bin/bash`
+
+```
 root@pihole-687f4b5567-bk8s2:/# pihole -a -p
 Enter New Password (Blank for no password): 
 Confirm Password: 
