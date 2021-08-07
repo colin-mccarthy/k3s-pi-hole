@@ -101,7 +101,8 @@ The login password is: admin
 
 The Web interface password needs to be reset via the command line on your Pi-hole. This can be done locally or over SSH. You will use the pihole command to do this:
 
-pihole -a -p
+`pihole -a -p`
+
 You will be prompted for the new password. If you enter an empty password, the password requirement will be removed from the web interface.
 
 
