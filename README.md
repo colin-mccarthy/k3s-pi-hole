@@ -106,7 +106,7 @@ The Web interface password needs to be reset via the command line on your Pi-hol
 You will be prompted for the new password. If you enter an empty password, the password requirement will be removed from the web interface.
 
 
-## Get a Shell to a Running Container
+### Get a Shell to a Running Container
 This page shows how to use kubectl exec to get a shell to a running container.
 
 https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
