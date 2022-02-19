@@ -1,7 +1,5 @@
 #  Easy Deploy of Pi-hole to K3s on RPi 4B 
 
-<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg"></code>
-<code><img height="22" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/raspberrypi.svg"></code>
 
 
 This project was built on a Raspberry Pi 4B running Raspian buster and Rancher K3s.
