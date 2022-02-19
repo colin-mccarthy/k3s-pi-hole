@@ -38,7 +38,7 @@ If using Metallb
 
 ✅  In the metallb-configmap.yaml file you need to set the IP ranges to match your network.
 
-```
+```yaml
   config: |
     address-pools:
     - addresses:
